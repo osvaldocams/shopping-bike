@@ -1,0 +1,31 @@
+:root{
+    --primario: rgb(33, 187, 248);
+    --secundario: rgb(18, 87, 115);
+    --negro: #111;
+    --blanco: #fff;
+    --fuentePrincipal: 'Raleway', sans-serif;
+}
+
+/* globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
