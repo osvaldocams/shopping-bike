@@ -114,8 +114,11 @@ img{
     grid-template-columns: 1fr 1fr;
     place-items: center;
 }
+.hero__contenido{
+    margin-left: 5rem;
+}
 .hero__heading{
-    color: var(--blanco);
+    color: var(--negro);
     font-size: 3.5rem;
     margin: 3rem 0 1rem 0;
     text-transform: uppercase;
