@@ -58,6 +58,9 @@ img{
 }
 
 /* carrito */
+.inactive{
+    display: none;
+}
 .shopping{
     background-color: var(--blanco);
     max-width: 45rem;
@@ -84,8 +87,17 @@ img{
 .shopping__img{
     min-width: 8rem;
 }
+.shopping__close{
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
 .shopping__button{
-    margin: 1rem;
+    text-align: center;
+    margin: 1rem auto;
     display: block;
     background-color: var(--blanco);
     padding: 1rem;
